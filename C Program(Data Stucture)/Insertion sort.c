@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main() {
     // Initialize an array
@@ -33,5 +32,5 @@ int main() {
     }
     printf("\n");
 
-    getch(); // Wait for a key press
+    return 0;
 }
