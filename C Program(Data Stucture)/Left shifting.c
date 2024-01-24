@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main() {
     // Declaring an array of size 5
@@ -33,6 +32,6 @@ int main() {
         printf("%d\t", a[i]);
     }
 
-    getch();
+    return 0;
 }
 
