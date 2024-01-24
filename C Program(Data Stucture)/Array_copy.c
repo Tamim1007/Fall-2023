@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include<stdlib.h>
-#include <conio.h>
 
 int main(){
 
@@ -32,5 +31,5 @@ int main(){
         printf("\t%d", new_array[i]);
     }
 
-    getch();
+    return 0;
 }
