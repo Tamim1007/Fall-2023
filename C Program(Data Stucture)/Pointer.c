@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main() {
     int x;        // Declare an integer variable
@@ -18,5 +17,5 @@ int main() {
     printf("%d\n", x);    // Print the value of x
     printf("%d\n", *p);   // Print the value at the address stored in the pointer p using the dereference operator *
 
-    getch(); // Wait for a key press
+    return 0;
 }
