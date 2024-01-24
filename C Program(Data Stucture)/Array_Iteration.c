@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 int main (){
     int n =5;// array size
@@ -24,7 +23,7 @@ int main (){
         printf("%d\t",arr[n-1-i]);
     }
 
-    getch();
+    return 0;
 }
 
 
