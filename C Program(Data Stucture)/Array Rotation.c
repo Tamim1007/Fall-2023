@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <conio.h>
 
 // Function to print the elements of the array
 void print(int arr[], int n)
@@ -68,5 +67,5 @@ int main()
         print(arr, n);
     }
 
-    getch();
+    return 0;
 }
