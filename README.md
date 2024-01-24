@@ -1,3 +1,0 @@
-#Projects
-
-University code projects
