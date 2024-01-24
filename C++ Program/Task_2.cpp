@@ -1,6 +1,5 @@
 //Object Pre-Increment
 #include <iostream>
-#include <conio.h> // Note: The conio.h header is not standard C++. It's better to avoid using it.
 using namespace std;
 
 // Declaration of the class 'overloading'
@@ -32,13 +31,6 @@ int main() {
     ++A; // Using the overloaded prefix increment operator to increment the value of 'num'
 
     A.output(); // Outputting the updated value of 'num'
-
-    // Note: The 'conio.h' header is not standard C++. Consider removing it for portability.
-
-    // Note: The getch() function (from 'conio.h') is not used in this code.
-    // It's common in console applications to use getch() to wait for a key press before closing the console window.
-    // If you want to keep the console window open, you can add _getch() at the end.
-    // Example: _getch();
 
     return 0; // Indicates successful program execution
 }
