@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 // Function to perform binary search on a sorted array
 int binarySearch(int left, int right, int value, int arr[]) {
@@ -39,6 +39,5 @@ int main() {
     // Print the result
     printf("Index of %d in the array: %d", value, answer);
 
-    // Wait for a key press (using getch from conio.h)
-    getch();
+    return 0;
 }
