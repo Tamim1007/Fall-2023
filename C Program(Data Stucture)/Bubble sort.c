@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <conio.h>
 
 int main() {
     int n = 6;
@@ -33,6 +32,5 @@ int main() {
         printf("%d\t", array[i]);
     }
 
-    // Wait for a key press (using getch from conio.h)
-    getch();
+    return 0;
 }
