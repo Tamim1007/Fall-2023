@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 // Define a structure for a linked list node
 struct Node {
@@ -41,5 +40,5 @@ int main() {
     }
     printf("\n");
 
-    getch();
+    return 0;
 }
