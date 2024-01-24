@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <conio.h>
 
 #define max_size 5
 
@@ -72,5 +71,5 @@ int main() {
     // Peek at the top of the stack
     printf("%d\n", peek());
 
-    getch();
+    return 0;
 }
