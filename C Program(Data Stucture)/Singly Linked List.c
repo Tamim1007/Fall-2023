@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 
 // Define a structure for a linked list node
 struct Node {
@@ -67,6 +66,5 @@ int main() {
     // Print the linked list
     printlist();
 
-    // Wait for a key press before exiting
-    getch();
+    return 0;
 }
