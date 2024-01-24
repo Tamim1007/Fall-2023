@@ -27,6 +27,5 @@ int main()
 {
     student st(655, 12600);
 
-
-    //return 0;
+    return 0;
 }
