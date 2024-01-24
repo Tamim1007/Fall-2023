@@ -41,12 +41,5 @@ int main() {
         cout << "No"; // Printing "No" if x1 is less than x2 [Note: There seems to be a mistake here; it should be x1 > x2]
     }
 
-    // Note: The 'conio.h' header is not a standard C++ header and is generally considered non-portable.
-    // Consider removing it for portability.
-
-    // Note: The getch() function (from 'conio.h') is used to wait for a key press before closing the console window.
-    // If you want to keep the console window open, you can add _getch() at the end.
-    // Example: _getch();
-
     return 0; // Indicates successful program execution
 }
