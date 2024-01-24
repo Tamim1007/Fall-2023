@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <conio.h>
 
 // Function to perform selection sort recursively
 void selection(int a[], int size) {
@@ -51,6 +50,6 @@ int main() {
         printf("%d\t", a[i]);
     }
 
-    getch();
+    return 0;
 }
 
